@@ -15,7 +15,7 @@ if ((n = stat(argv[1], &file)) == -1)
 {
 perror(argv[1]);
 exit(-1);
-}13
+}
 printf("User id : %d\n", file.st_uid);
 printf("Group id : %d\n", file.st_gid);
 printf("Block size : %d\n", file.st_blksize);
