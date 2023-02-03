@@ -10,7 +10,7 @@ if (argc != 2)
 {
 printf("Usage: ./a.out <filename>\n");
 exit(-1);
-}21
+}
 fd = open(argv[1], O_APPEND|O_WRONLY|O_CREAT, 0644);
 if (fd < 0)
 {
