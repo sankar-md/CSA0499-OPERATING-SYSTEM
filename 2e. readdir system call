@@ -13,7 +13,7 @@ exit(-1);
 if((dname = opendir(argv[1])) == NULL)
 {
 perror(argv[1]);
-exit(-1);15
+exit(-1);
 }
 while(dptr=readdir(dname))
 printf("%s\n", dptr->d_name);
